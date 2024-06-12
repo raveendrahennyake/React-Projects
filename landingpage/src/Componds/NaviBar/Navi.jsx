@@ -17,13 +17,13 @@ const Navi = () => {
         <img className='imagesize' src={logo}></img>
         <ul className='navmenu'>
           <li>HOME</li>
-           <li>ABOUT US</li>
-            <li>CONTACT US</li>
+           <li>ABOUT </li>
+            <li>CONTACT </li>
              <li>SERVICE</li>
              <li>Portfolio</li>
 
         </ul>
-        <div className='connectbutton'>Connect with me</div>
+        <div className='connectbutton'>Conncet with me</div>
        
 
         
