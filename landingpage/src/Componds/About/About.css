@@ -1,0 +1,32 @@
+* {
+    color: aliceblue;
+}
+
+.aboutpage img {
+    width: 300px;
+    height: 400px;
+}
+
+
+.aboutpage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:80px 80px ;
+    align-items: center;
+}
+
+.aboutpage h1 {
+    margin-bottom: 20px;
+}
+.documents {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.skils h4 {
+    font-size: 20px;
+}
+
