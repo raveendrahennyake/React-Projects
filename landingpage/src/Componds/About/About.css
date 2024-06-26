@@ -1,6 +1,9 @@
 * {
     color: aliceblue;
 }
+.aboutpage h1 {
+    color: #ebf55f;
+}
 
 .aboutpage img {
     width: 300px;

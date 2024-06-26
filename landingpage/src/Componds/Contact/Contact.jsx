@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Contact.css';
 
 const Contact = () => {
   return (
-    <div>
+    <div className='ContactPage'>
+
+      <h1>HELLO</h1>
       
     </div>
   )

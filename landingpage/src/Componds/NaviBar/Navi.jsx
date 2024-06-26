@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 const Navi = () => {
   return (
     <div>
+      
       <div className='navigatebar'>
         <img className='imagesize' src={logo} alt="logo" />
         
