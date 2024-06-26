@@ -26,7 +26,20 @@
 
 }
 
-.skils h4 {
+.skil h4 {
     font-size: 20px;
+    outline: none;
+    border: none;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
+.skil hr {
+    background: linear-gradient(45deg, #F44336, #7789cd,#c9bb52);
+     outline: none;
+    border: none;
+    height: 8px;
+    
 
+}

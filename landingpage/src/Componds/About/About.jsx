@@ -20,14 +20,14 @@ const About = () => {
                   </div>
                   
                     <div className='skills'>
-                      <div className='skils'> <h4>HTML & CSS</h4><hr style={{width:"50%"}} /></div>
-                      <div className='skils'> <h4>JavaScript</h4><hr style={{width:"50%"}} /></div>
-                      <div className='skils'> <h4>React Js</h4><hr style={{width:"50%"}} /></div>
-                      <div className='skils'> <h4>SpringBoots</h4><hr style={{width:"50%"}} /></div>
-                      <div className='skils'> <h4>Java</h4><hr style={{width:"50%"}} /></div>
-                      <div className='skils'> <h4>Node Js</h4><hr style={{width:"50%"}} /></div>
+                      <div className='skil'> <h4>HTM & CSS</h4> <hr id='linera' style={{width:"25%"}} /></div>
+                      <div className='skil'> <h4>JavaScript</h4><hr style={{width:"20%"}} /></div>
+                      <div className='skil'> <h4>React Js</h4><hr style={{width:"20%"}} /></div>
+                      <div className='skil'> <h4>SpringBoots</h4><hr style={{width:"25%"}} /></div>
+                      <div className='skil'> <h4>Java</h4><hr style={{width:"20%"}} /></div>
+                      <div className='skil'> <h4>Node Js</h4><hr style={{width:"10%"}} /></div>
                       
-                      <div className='skils'> <h4>MySql & Mongodb</h4><hr style={{width:"50%"}} /></div>
+                      <div className='skil'> <h4>MySql & Mongodb</h4><hr style={{width:"20%"}} /></div>
                       
                       
                       
