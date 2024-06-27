@@ -1,4 +1,4 @@
-*{
+* {
     background-color: black;
 }
 
@@ -8,9 +8,7 @@
     border-radius: 50%; 
     border: 2px solid rgb(255, 113, 47);
     cursor: pointer;
-    
 }
-
 
 .navigatebar {
     display: flex;
@@ -18,25 +16,21 @@
     justify-content: space-between;
     color: beige;
     margin: 20px 130px; 
-   
-   
-    
-}
-.navmenu {
-   display: flex;
-   gap: 30px;
-   font-size: 20px;
-   list-style: none;
-   text-decoration: none;
 }
 
+.navmenu {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    list-style: none;
+}
 
 .connectbutton {
     font-size: 15px;
     padding: 15px 15px;
-    border-radius:30px ;
-   background: linear-gradient(45deg, #F44336, #7789cd);
-   cursor: pointer;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #F44336, #7789cd);
+    cursor: pointer;
 }
 
 .connectbutton:hover {
@@ -46,4 +40,40 @@
 .navmenu a {
     text-decoration: none;
     color: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .navigatebar {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px 20px;
+    }
+
+    .navmenu {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .connectbutton {
+        margin-top: 10px;
+    }
+}
+
+/* Media query for very small screens */
+@media (max-width: 480px) {
+    .imagesize {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navmenu {
+        font-size: 16px;
+    }
+
+    .connectbutton {
+        font-size: 13px;
+        padding: 10px 10px;
+    }
 }
