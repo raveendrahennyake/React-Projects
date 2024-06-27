@@ -57,7 +57,8 @@
     }
 
     .connectbutton {
-        margin-top: 10px;
+        display: none;
+       
     }
 }
 
@@ -75,5 +76,6 @@
     .connectbutton {
         font-size: 13px;
         padding: 10px 10px;
+        display: none;
     }
 }

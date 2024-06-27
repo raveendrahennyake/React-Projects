@@ -18,7 +18,7 @@ const Navi = () => {
           <li><Link to="/service">SERVICE</Link></li>
           <li><Link to="/portfolio">PORTFOLIO</Link></li>
         </ul>
-        <div className='connectbutton'>Connect with me</div>
+       
       </div>
     </div>
   );

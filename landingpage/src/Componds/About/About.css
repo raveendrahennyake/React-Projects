@@ -1,48 +1,118 @@
 * {
     color: aliceblue;
-}
-.aboutpage h1 {
+  }
+  
+  .aboutpage h1 {
     color: #ebf55f;
-}
-
-.aboutpage img {
-    width: 300px;
-    height: 400px;
-}
-
-
-.aboutpage {
+  }
+  
+  .aboutpage img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .aboutpage {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin:80px 80px ;
+    margin: 80px 20px;
     align-items: center;
-}
-
-.aboutpage h1 {
+  }
+  
+  .aboutpage h1 {
     margin-bottom: 20px;
-}
-.documents {
+  }
+  
+  .documents {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
-
-}
-
-.skil h4 {
+  }
+  
+  .newone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .skil h4 {
     font-size: 20px;
     outline: none;
     border: none;
     font-family: "Alegreya", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-.skil hr {
-    background: linear-gradient(45deg, #F44336, #7789cd,#c9bb52);
-     outline: none;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .skil hr {
+    background: linear-gradient(45deg, #F44336, #7789cd, #c9bb52);
+    outline: none;
     border: none;
     height: 8px;
+  }
+  
+  @media (min-width: 768px) {
+    .documents {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .skills {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .skills .skil {
+      margin: 0 10px;
+    }
+  
+    .paragraph p {
+      max-width: 500px;
+      text-align: justify;
+    }
     
+  }
+  @media (max-width: 458px) {
+  .aboutpage {
+    margin: 40px 10px;
+  }
 
+  .documents {
+    gap: 30px;
+  }
+
+  .skills {
+    gap: 5px;
+  }
+
+  .skil h4 {
+    font-size: 16px;
+  }
+
+  .skil hr {
+    height: 5px;
+  }
+
+  .paragraph p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .aboutpage img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+  }
 }
+  
+  

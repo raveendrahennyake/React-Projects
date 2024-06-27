@@ -1,85 +1,101 @@
+/* Reset some default styles */
 * {
-    padding:0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 #image1 {
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
     border-radius: 50%;
     border: 1px solid gold;
 }
+
 .bodyconnect {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-   
-
-}
-.bodyconnect {
     color: aliceblue;
-    padding: auto;
+    padding: 20px;
+    text-align: center;
 }
 
 .bodyconnect h1 {
-    margin: 0%;
-    font-size: 50px;
+    margin: 0;
+    font-size: 2.5em; /* Adjust the font size */
     font-family: "Arvo", serif;
-  
-  font-style: normal;
+    font-style: normal;
 }
 
 .bodyconnect p {
-     margin: 0%;
-     
+    margin: 0;
+    font-size: 1em; /* Adjust the font size */
 }
+
 #text1 {
     font-family: "Playball", cursive;
     font-style: normal;
-    font-size: 20px;
-   
+    font-size: 1.25em;
 }
-#text2 {
-    font-family: "Castoro", serif;
-  font-weight: 400;
-  font-style: normal;
-  
-}
-#text3 {
-    font-family: "Castoro", serif;
-  font-weight: 400;
-  font-style: normal;
 
+#text2, #text3 {
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #F44336, #7789cd);
+    cursor: pointer;
+    border: 2px solid white;
 }
-#text2{
-   padding: 5px 20px;
-    border-radius:30px ;
-   background: linear-gradient(45deg, #F44336, #7789cd);
-   cursor: pointer;
-   border: 2px solid white;
 
-}
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 15px;
+    flex-wrap: wrap; /* Adjust for smaller screens */
 }
+
 .bodyconnect h1 span {
-    background: linear-gradient(45deg, #F44336, #7789cd,#c9bb52);
+    background: linear-gradient(45deg, #F44336, #7789cd, #c9bb52);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-
 }
 
-#text3{
-    padding: 5px 20px;
-    border-radius:30px ;
-   background: linear-gradient(45deg, #F44336, #7789cd);
-   cursor: pointer;
-   border: 2px solid white;
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .bodyconnect h1 {
+        font-size: 2em;
+    }
 
+    #text1 {
+        font-size: 1em;
+    }
 
+    #image1 {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bodyconnect h1 {
+        font-size: 1.5em;
+    }
+
+    #text1 {
+        font-size: 0.9em;
+    }
+
+    #image1 {
+        max-width: 150px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
